@@ -1,11 +1,11 @@
 class Dedupe < Formula
   desc "Find and quarantine duplicate image files for slideshow curation"
   homepage "https://github.com/mickmill54/image-deduper"
-  version "0.10.1"
+  version "0.11.0"
   license "MIT"
 
-  url "https://github.com/mickmill54/image-deduper/releases/download/v0.10.1/dedupe-macos-arm64"
-  sha256 "544eadbc64b30d9b59b9e872f58ada4a3e6ed8ea58bc4f0973d93778ef609547"
+  url "https://github.com/mickmill54/image-deduper/releases/download/v0.11.0/dedupe-macos-arm64"
+  sha256 "9d321ba5249c2667d835999e9848d1fd1d9630366e5f5da203d21c0475755803"
 
   depends_on :macos
   depends_on arch: :arm64
